@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="220" viewBox="0 0 920 220" role="img" aria-labelledby="title description">
+  <title id="title">Development skills</title>
+  <desc id="description">Frontend with JavaScript, React, HTML, CSS, and Bootstrap. Backend with Node.js, Java, Spring Boot, and Python. Mobile app development with Flutter.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#10182b"/>
+      <stop offset="1" stop-color="#18223b"/>
+    </linearGradient>
+  </defs>
+  <style>
+    @media (prefers-reduced-motion: no-preference) {
+      .accent { animation: pulse 3s ease-in-out 1 alternate; }
+      @keyframes pulse { 50% { opacity: .42; } }
+    }
+  </style>
+  <rect width="920" height="220" rx="20" fill="#0b1221"/>
+  <g transform="translate(24 22)" font-family="system-ui, sans-serif">
+    <rect width="288" height="176" rx="17" fill="url(#background)" stroke="#35455d"/>
+    <rect class="accent" x="18" y="18" width="49" height="42" rx="11" fill="#69e6d0" opacity=".14"/>
+    <g transform="translate(15 19)" fill="none" stroke="#69e6d0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m20 13-7 7 7 7m16-14 7 7-7 7m-5-17-6 20"/></g>
+    <text x="18" y="94" fill="#69e6d0" font-size="28" font-weight="700">Frontend</text>
+    <text x="18" y="127" fill="#f2f6fd" font-size="22" font-weight="600">JavaScript · React</text>
+    <text x="18" y="153" fill="#b9c6d9" font-size="18">HTML · CSS · Bootstrap</text>
+  </g>
+  <g transform="translate(316 22)" font-family="system-ui, sans-serif">
+    <rect width="288" height="176" rx="17" fill="url(#background)" stroke="#35455d"/>
+    <rect class="accent" x="18" y="18" width="49" height="42" rx="11" fill="#acb6ff" opacity=".14"/>
+    <g transform="translate(15 19)" fill="none" stroke="#acb6ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="13" y="9" width="30" height="10" rx="3"/><rect x="13" y="22" width="30" height="10" rx="3"/><path d="M19 14h2m-2 13h2m7-13h9m-9 13h9"/></g>
+    <text x="18" y="94" fill="#acb6ff" font-size="28" font-weight="700">Backend</text>
+    <text x="18" y="127" fill="#f2f6fd" font-size="22" font-weight="600">Node.js · Java</text>
+    <text x="18" y="153" fill="#b9c6d9" font-size="18">Spring Boot · Python</text>
+  </g>
+  <g transform="translate(608 22)" font-family="system-ui, sans-serif">
+    <rect width="288" height="176" rx="17" fill="url(#background)" stroke="#35455d"/>
+    <rect class="accent" x="18" y="18" width="49" height="42" rx="11" fill="#83d7ff" opacity=".14"/>
+    <g transform="translate(15 19)" fill="none" stroke="#83d7ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="18" y="6" width="20" height="29" rx="4"/><path d="M25 10h6m-4 20h2"/></g>
+    <text x="18" y="94" fill="#83d7ff" font-size="28" font-weight="700">Mobile</text>
+    <text x="18" y="127" fill="#f2f6fd" font-size="22" font-weight="600">Flutter</text>
+    <text x="18" y="153" fill="#b9c6d9" font-size="18">App development</text>
+  </g>
+</svg>
